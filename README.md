@@ -1,7 +1,7 @@
   
     Book to Scrape
 Ce programme est une version beta d'un script permettant d'automatiser un système de surveillance des prix sur un site web : http://books.toscrape.com/. 
-A partir de ce site, l'objectif est de récupérer les informations de chaque livre et de les écrire dans un fichier CSV. Chaque CSV contient les informations des livres de la même catégorie et est classé dans un dossier uniquement. Dans ce même dossier, est créé un sous dossier contenant les images des brochures de chaque livre.
+A partir de ce site, l'objectif est de récupérer les informations de chaque livre et de les écrire dans un fichier CSV. Chaque CSV contient les informations des livres de la même catégorie et est classé dans un dossier uniquement. Dans ce même dossier, est créé un sous dossier contenant les images des  couvertures de chaque livre.
 
     Pré-requis
 Conaissance minimum en:
