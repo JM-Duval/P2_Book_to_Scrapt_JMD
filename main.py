@@ -14,10 +14,11 @@ from book_infos import get_book_infos
 from all_category_link import get_all_category_link
 from all_book_in_category import get_all_book_in_category
 
-# -----------------------------------------------------
+
 url_bts = 'http://books.toscrape.com/'
 response = requests.get(url_bts)
 soup = BeautifulSoup(response.text, "html.parser")
+
 # --Data_Path----------------------
 data = Path('data')
 if not os.path.exists(data):
