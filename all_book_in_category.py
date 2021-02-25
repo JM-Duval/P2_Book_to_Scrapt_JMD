@@ -1,6 +1,6 @@
 # -*-coding: utf-8 -*
-""" This program is attached to the 'main.py' program. The target is find all the links of books
-in category.
+""" This program is attached to the 'main.py' program. The target is find all
+the links of books in category.
 """
 
 import requests
