@@ -3,11 +3,9 @@
 one book.
 """
 
-import os
 import requests
+
 from bs4 import BeautifulSoup
-from pathlib import Path
-import pathlib
 
 
 # --Title--------------------
@@ -58,6 +56,7 @@ def get_img (soup):
 #--dictionnary--------------
 
 def get_book_infos (book_link):
+    """Scrape information book and save in the dictionary"""
     book_dict = {}
     response = requests.get(book_link)
     soup = BeautifulSoup(response.text, "html.parser")
