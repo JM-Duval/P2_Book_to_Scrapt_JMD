@@ -1,15 +1,12 @@
 # -*-coding: utf-8 -*
-# Script permettant de scraper les liens de toutes les catégories
-# import libraries
+""" This program is attached to the 'main.py' program. The target is find all the links of all
+categories.
+"""
+
+
 import requests
 import csv
 from bs4 import BeautifulSoup
-# -----------------------------------------------------
-#url_bts = 'http://books.toscrape.com/'
-#response = requests.get(url_bts)
-
-# --Create_a_BeautifulSoup_object----------------------
-#soup = BeautifulSoup(response.text, "html.parser")
 
 # --All_category_links---------------------------------
 def get_all_category_link(url_bts):
